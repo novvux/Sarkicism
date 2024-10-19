@@ -12,24 +12,24 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/biomanipulation/icon.png",
+	"icon": "assets/sarkicism/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.novvux.biomanipulation.BiologicalManipulation",
+				"value": "com.novvux.sarkicism.Sarkicism",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
 			{
-				"value": "com.novvux.biomanipulation.BiologicalManipulationClient",
+				"value": "com.novvux.sarkicism.SarkicismClient",
 				"adapter": "kotlin"
 			}
 		],
 		"fabric-datagen": [
 			{
-				"value": "com.novvux.biomanipulation.BiologicalManipulationDataGenerator",
+				"value": "com.novvux.sarkicism.SarkicismDataGenerator",
 				"adapter": "kotlin"
 			}
 		]

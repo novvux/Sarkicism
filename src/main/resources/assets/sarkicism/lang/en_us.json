@@ -1,0 +1,28 @@
+{
+  "itemGroup.sarkicism": "Biological Manipulation",
+
+  "item.sarkicism.overgrown_diary": "Overgrown Diary",
+  "itemTooltip.sarkicism.overgrown_diary": "Vines all over the book trying to open it",
+
+  "item.sarkicism.dull_crystal": "Dull Crystal",
+  "itemTooltip.sarkicism.dull_crystal": "A shiny stone. Maybe it needs to be honed?",
+  "item.sarkicism.faint_crystal": "Faint Crystal",
+  "itemTooltip.sarkicism.faint_crystal": "It glows faintly",
+  "item.sarkicism.glittering_crystal": "Glittering Crystal",
+  "itemTooltip.sarkicism.glittering_crystal": "It's flickering",
+  "item.sarkicism.shining_crystal": "Shining Crystal",
+  "itemTooltip.sarkicism.shining_crystal": "Transparent walls expose the light inside",
+
+  "item.sarkicism.sword_head": "Sword Head",
+  "item.sarkicism.pickaxe_head": "Pickaxe Head",
+  "item.sarkicism.axe_head": "Axe Head",
+  "item.sarkicism.mace_head": "Mace Head",
+  "itemTooltip.sarkicism.head_modifier": "This can be used as a modifier",
+
+  "tag.item.sarkicism.modificator": "Modificator",
+  "tag.item.sarkicism.crystal": "Crystal",
+  "tag.item.sarkicism.tier0crystal": "Tier 0 Crystal",
+  "tag.item.sarkicism.tier1crystal": "Tier 1 Crystal",
+  "tag.item.sarkicism.tier2crystal": "Tier 2 Crystal",
+  "tag.item.sarkicism.tier3crystal": "Tier 3 Crystal"
+}

@@ -1,0 +1,28 @@
+{
+  "itemGroup.sarkicism": "Биологическая модификация",
+
+  "item.sarkicism.overgrown_diary": "Заросший дневник",
+  "itemTooltip.sarkicism.overgrown_diary": "Лианы на книге пытаются её открыть",
+
+  "item.sarkicism.dull_crystal": "Скучный кристалл",
+  "itemTooltip.sarkicism.dull_crystal": "Блестящий камень. Может его нужно отточить?",
+  "item.sarkicism.faint_crystal": "Бледный кристалл",
+  "itemTooltip.sarkicism.faint_crystal": "Слабо светится",
+  "item.sarkicism.glittering_crystal": "Мерцающий кристалл",
+  "itemTooltip.sarkicism.glittering_crystal": "Он мерцает",
+  "item.sarkicism.shining_crystal": "Светящийся кристалл",
+  "itemTooltip.sarkicism.shining_crystal": "Прозрачные стенки обнажают свет внутри",
+
+  "item.sarkicism.sword_head": "Навершие меча",
+  "item.sarkicism.pickaxe_head": "Навершие кирки",
+  "item.sarkicism.axe_head": "Навершие топора",
+  "item.sarkicism.mace_head": "Навершие булавы",
+  "itemTooltip.sarkicism.head_modifier": "Может быть использовано как модификатор",
+
+  "tag.item.sarkicism.modificator": "Modificator",
+  "tag.item.sarkicism.crystal": "Crystal",
+  "tag.item.sarkicism.tier0crystal": "Tier 0 Crystal",
+  "tag.item.sarkicism.tier1crystal": "Tier 1 Crystal",
+  "tag.item.sarkicism.tier2crystal": "Tier 2 Crystal",
+  "tag.item.sarkicism.tier3crystal": "Tier 3 Crystal"
+}

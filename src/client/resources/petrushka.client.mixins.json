@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.novvux.biomanipulation.mixin.client",
+  "package": "com.novvux.sarkicism.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
   ],
