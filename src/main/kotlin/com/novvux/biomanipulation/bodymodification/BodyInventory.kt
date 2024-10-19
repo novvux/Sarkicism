@@ -1,0 +1,68 @@
+package com.novvux.biomanipulation.bodymodification
+
+import com.novvux.biomanipulation.entity.FleshBoxBlockEntity
+import com.novvux.biomanipulation.entity.ModEntities
+import com.novvux.biomanipulation.util.IImplementedInventory
+import net.minecraft.block.BlockState
+import net.minecraft.block.entity.BlockEntity
+import net.minecraft.entity.player.PlayerEntity
+import net.minecraft.entity.player.PlayerInventory
+import net.minecraft.inventory.Inventories
+import net.minecraft.item.ItemStack
+import net.minecraft.nbt.NbtCompound
+import net.minecraft.network.listener.ClientPlayPacketListener
+import net.minecraft.network.packet.Packet
+import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket
+import net.minecraft.registry.RegistryWrapper.WrapperLookup
+import net.minecraft.screen.NamedScreenHandlerFactory
+import net.minecraft.screen.ScreenHandler
+import net.minecraft.text.Text
+import net.minecraft.util.collection.DefaultedList
+import net.minecraft.util.math.BlockPos
+import net.minecraft.world.World
+import java.util.stream.Stream
+
+class BodyInventory(pos: BlockPos, state: BlockState): BlockEntity(ModEntities.FLESH_BOX_BLOCK_ENTITY, pos, state),
+    NamedScreenHandlerFactory, IImplementedInventory {
+    override val items: DefaultedList<ItemStack> = DefaultedList.ofSize(9, ItemStack.EMPTY)
+    override fun markDirty() {
+
+    }
+
+    //These Methods are from the NamedScreenHandlerFactory Interface
+    //createMenu creates the ScreenHandler itself
+    //getDisplayName will Provide its name which is normally shown at the top
+    override fun createMenu(syncId: Int, playerInventory: PlayerInventory, player: PlayerEntity): ScreenHandler {
+        //We provide *this* to the screenHandler as our class Implements Inventory
+        //Only the Server has the Inventory at the start, this will be synced to the client in the ScreenHandler
+        return BodyScreenHandler(syncId, playerInventory, this)
+    }
+
+    override fun getDisplayName(): Text {
+        return Text.translatable(cachedState.block.translationKey)
+    }
+
+    override fun readNbt(nbt: NbtCompound, wrapper: WrapperLookup) {
+        super.readNbt(nbt, wrapper)
+        Inventories.readNbt(nbt, items, wrapper)
+    }
+
+    override fun writeNbt(nbt: NbtCompound, wrapper: WrapperLookup) {
+        Inventories.writeNbt(nbt, items, wrapper)
+        return super.writeNbt(nbt, wrapper)
+    }
+
+    override fun toUpdatePacket(): Packet<ClientPlayPacketListener>? {
+        return BlockEntityUpdateS2CPacket.create(this)
+    }
+
+
+    fun toInitialChunkDataNbt(): NbtCompound {
+        return createNbt(WrapperLookup.of(Stream.empty()))
+    }
+
+    fun tick(world: World, pos: BlockPos, state: BlockState, be: FleshBoxBlockEntity) {
+
+    }
+}
+

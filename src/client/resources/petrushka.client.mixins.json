@@ -1,10 +1,8 @@
 {
   "required": true,
-  "package": "com.novvux.petrushka.mixin.client",
+  "package": "com.novvux.biomanipulation.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ExampleClientMixin",
-    "IHandledScreenInvoker"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,10 +1,8 @@
 {
 	"required": true,
-	"package": "com.novvux.petrushka.mixin",
+	"package": "com.novvux.biomanipulation.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
-		"ItemUpgradeSlotsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

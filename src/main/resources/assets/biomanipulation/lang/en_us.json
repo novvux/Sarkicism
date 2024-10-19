@@ -1,0 +1,28 @@
+{
+  "itemGroup.biomanipulation": "Biological Manipulation",
+
+  "item.biomanipulation.overgrown_diary": "Overgrown Diary",
+  "itemTooltip.biomanipulation.overgrown_diary": "Vines all over the book trying to open it",
+
+  "item.biomanipulation.dull_crystal": "Dull Crystal",
+  "itemTooltip.biomanipulation.dull_crystal": "A shiny stone. Maybe it needs to be honed?",
+  "item.biomanipulation.faint_crystal": "Faint Crystal",
+  "itemTooltip.biomanipulation.faint_crystal": "It glows faintly",
+  "item.biomanipulation.glittering_crystal": "Glittering Crystal",
+  "itemTooltip.biomanipulation.glittering_crystal": "It's flickering",
+  "item.biomanipulation.shining_crystal": "Shining Crystal",
+  "itemTooltip.biomanipulation.shining_crystal": "Transparent walls expose the light inside",
+
+  "item.biomanipulation.sword_head": "Sword Head",
+  "item.biomanipulation.pickaxe_head": "Pickaxe Head",
+  "item.biomanipulation.axe_head": "Axe Head",
+  "item.biomanipulation.mace_head": "Mace Head",
+  "itemTooltip.biomanipulation.head_modifier": "This can be used as a modifier",
+
+  "tag.item.biomanipulation.modificator": "Modificator",
+  "tag.item.biomanipulation.crystal": "Crystal",
+  "tag.item.biomanipulation.tier0crystal": "Tier 0 Crystal",
+  "tag.item.biomanipulation.tier1crystal": "Tier 1 Crystal",
+  "tag.item.biomanipulation.tier2crystal": "Tier 2 Crystal",
+  "tag.item.biomanipulation.tier3crystal": "Tier 3 Crystal"
+}
