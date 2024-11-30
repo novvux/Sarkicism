@@ -1,5 +1,8 @@
 {
-  "itemGroup.sarkicism": "Biological Manipulation",
+  "itemGroup.sarkicism": "Sarkicism",
+  "category.sarkicism.sarkicism": "Sarkicism",
+
+  "key.sarkicism.menu": "Menu",
 
   "item.sarkicism.overgrown_diary": "Overgrown Diary",
   "itemTooltip.sarkicism.overgrown_diary": "Vines all over the book trying to open it",

@@ -1,6 +1,6 @@
 package com.novvux.sarkicism.entity
 
-import com.novvux.petrushka.screen.FleshBoxScreenHandler
+import com.novvux.sarkicism.screen.FleshBoxScreenHandler
 import com.novvux.sarkicism.util.IImplementedInventory
 import net.minecraft.block.BlockState
 import net.minecraft.block.entity.BlockEntity

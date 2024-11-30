@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "biomanipulation",
+	"id": "sarkicism",
 	"version": "${version}",
-	"name": "Biological Manipulation",
+	"name": "Sarkicism",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"novvux"
@@ -43,10 +43,7 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"fabric-language-kotlin": "*",
-		"fabric-key-binding-api-v1": "*",
-
-		"expandability": "*",
-		"accessories": "*"
+		"fabric-key-binding-api-v1": "*"
 	},
 	"suggests": {
 		"another-mod": "*"

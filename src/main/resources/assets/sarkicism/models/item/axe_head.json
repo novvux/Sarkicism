@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "biomanipulation:item/axe_head"
+    "layer0": "sarkicism:item/axe_head"
   }
 }

@@ -1,4 +1,4 @@
-package com.novvux.petrushka.screen
+package com.novvux.sarkicism.screen
 
 import com.novvux.sarkicism.Sarkicism
 import net.minecraft.entity.player.PlayerEntity

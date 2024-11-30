@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "biomanipulation:item/glittering_crystal"
+    "layer0": "sarkicism:item/glittering_crystal"
   }
 }

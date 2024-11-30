@@ -1,5 +1,8 @@
 {
-  "itemGroup.sarkicism": "Биологическая модификация",
+  "itemGroup.sarkicism": "Саркицизм",
+  "category.sarkicism.sarkicism": "Саркицизм",
+
+  "key.sarkicism.menu": "Меню",
 
   "item.sarkicism.overgrown_diary": "Заросший дневник",
   "itemTooltip.sarkicism.overgrown_diary": "Лианы на книге пытаются её открыть",
